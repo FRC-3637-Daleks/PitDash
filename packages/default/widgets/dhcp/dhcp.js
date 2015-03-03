@@ -8,6 +8,12 @@ widget = {
         }
 
         $('.dhcp_cont').html('');
+        // Sort by last section of ip address
+        data.clients.sort(function(a,b) {
+          var alast = parseInt(a.ip.match("[0-9]+$")[0]);
+          var blast = parseInt(b.ip.match("[0-9]+$")[0]);
+          return alast - blast;
+        });
         $.each(data.clients, function( index, client ) {
           if (client.host == '*') {
             client.host = '';
