@@ -28,3 +28,4 @@ client.on('message', function (topic, message) {
 });
 
 module.exports = cache;
+module.exports.client = client;

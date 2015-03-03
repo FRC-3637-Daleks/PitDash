@@ -3,8 +3,10 @@
       "title": false,
       "customJS" : ["jquery.peity.js"],
       "widgets" : [
-          {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "conn_status", "job" : "conn_status", "config": "conn_status"},
-          {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "time", "job" : "time", "config": "time"}
+          {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "time", "job" : "time", "config": "time"},
+          {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "conn_status", "job" : "conn_status", "config": "conn_status"},
+          {"row" : 1, "col" : 2, "width" : 2, "height" : 2, "widget" : "mqtt_feed", "job" : "mqtt_feed", "config": "mqtt_feed"},
+          {"row" : 1, "col" : 4, "width" : 1, "height" : 2, "widget" : "dhcp", "job" : "dhcp", "config": "dhcp"}
       ]
   },
 
@@ -16,9 +18,20 @@
       "key_mqtt": "connected/mqtt",
       "key_robot": "connected/robot"
     },
+
     "time" : {
       "widgetTitle": "Time",
       "interval": 1000
+    },
+
+    "mqtt_feed" : {
+      "widgetTitle": "Feed",
+      "interval": 1000
+    },
+
+    "dhcp" : {
+      "widgetTitle": "DHCP",
+      "interval": 5000
     }
   }
 }
