@@ -1,9 +1,9 @@
 {
   "private":true,
   "license":"Apache License, Version 2.0",
-  "author":"Atlassian",
-  "name":"atlasboard-demo-package",
-  "description":"A demo package for AtlasBoard",
+  "author":"Team 3637",
+  "name":"PitDash",
+  "description":"The pit dashboard",
   "version":"0.0.1",
   "homepage":"",
   "repository":{
@@ -16,6 +16,7 @@
   "dependencies":{
     "underscore": "1.4.2",
     "cheerio": "0.10.5",
-    "ical": "~0.0.3"
+    "mqtt": "1.1.0",
+    "node-cache": "1.1.0"
   }
 }
