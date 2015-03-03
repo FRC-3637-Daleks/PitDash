@@ -3,7 +3,8 @@
       "title": false,
       "customJS" : ["jquery.peity.js"],
       "widgets" : [
-          {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "conn_status", "job" : "conn_status", "config": "conn_status"}
+          {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "conn_status", "job" : "conn_status", "config": "conn_status"},
+          {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "time", "job" : "time", "config": "time"}
       ]
   },
 
@@ -14,6 +15,10 @@
       "interval" : 1000,
       "key_mqtt": "connected/mqtt",
       "key_robot": "connected/robot"
+    },
+    "time" : {
+      "widgetTitle": "Time",
+      "interval": 1000
     }
   }
 }

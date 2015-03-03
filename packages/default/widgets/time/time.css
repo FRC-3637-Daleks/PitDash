@@ -1,0 +1,12 @@
+.time {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.date {
+    font-size: 30px;
+    color: #777;
+    text-align: center;
+}
