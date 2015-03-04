@@ -1,5 +1,5 @@
 .dhcp_cont {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .client {
@@ -16,5 +16,5 @@
 
 .mac {
     color: #ccc;
-    font-size: 18px;
+    font-size: 14px;
 }
