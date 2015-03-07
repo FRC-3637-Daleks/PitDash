@@ -8,9 +8,10 @@ widget = {
             $('h2', el).text(data.title);
         }
 
-        $('.mqtt_feed_cont').html('');
+        //$('.mqtt_feed_cont').html('');
         $.each(data.items, function( index, value ) {
-          $('.mqtt_feed_cont').append('<span>' + value + '</span><br>');
+          $('.mqtt_feed_cont').prepend('<span>' + value + '</span><br>')
+          $('.mqtt_feed_cont > span:first').delay(10000).fadeOut(2000, function() { $(this).remove() });;
         });
     }
 };

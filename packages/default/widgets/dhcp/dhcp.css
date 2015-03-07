@@ -1,13 +1,13 @@
 .dhcp_cont {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .client {
     width: 100%;
     border: 1px solid #444;
     background-color: rgba(255,255,255,0.05);
-    margin-bottom: 10px;
-    padding: 4px;
+    margin-bottom: 5px;
+    padding: 3px;
 }
 
 .host {
@@ -16,5 +16,5 @@
 
 .mac {
     color: #ccc;
-    font-size: 14px;
+    font-size: 12px;
 }
