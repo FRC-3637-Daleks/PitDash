@@ -1,0 +1,30 @@
+.content {
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+}
+
+.rankings {
+    text-align: center;
+    margin: 0;
+}
+
+.rankings > tr {
+    background-color: #555;
+}
+.rankings > tr:nth-child(even) {
+    background-color: #666;
+}
+
+.rankings > tr > td {
+    padding: 3px;
+    border: 1px solid #0F0F0F;
+}
+
+.us {
+    background-color: white !important;
+    color: black;
+    font-weight: bold;
+}

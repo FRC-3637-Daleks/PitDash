@@ -7,7 +7,8 @@
           {"row" : 2, "col" : 1, "width" : 1, "height" : 1, "widget" : "conn_status", "job" : "conn_status", "config": "conn_status"},
           {"row" : 3, "col" : 1, "width" : 1, "height" : 2, "widget" : "mqtt_feed", "job" : "mqtt_feed", "config": "mqtt_feed"},
           {"row" : 1, "col" : 2, "width" : 1, "height" : 4, "widget" : "dhcp", "job" : "dhcp", "config": "dhcp"},
-          {"row" : 1, "col" : 3, "width" : 3, "height" : 4, "widget" : "matches", "job" : "matches", "config": "matches"}
+          {"row" : 1, "col" : 3, "width" : 3, "height" : 4, "widget" : "matches", "job" : "matches", "config": "matches"},
+          {"row" : 1, "col" : 6, "width" : 1, "height" : 4, "widget" : "ranking", "job" : "ranking", "config": "ranking"}
       ]
   },
 
@@ -39,6 +40,13 @@
       "widgetTitle": "Matches",
       "interval": 180000,
       "team": "frc3637",
+      "event": "2015paphi"
+    },
+
+    "ranking" : {
+      "widgetTitle": "Ranking",
+      "interval": 180000,
+      "team": 3637,
       "event": "2015paphi"
     }
   }
