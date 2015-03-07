@@ -1,0 +1,47 @@
+.content {
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+}
+
+.matches {
+    text-align: center;
+    margin: 0;
+}
+
+.matches > tr {
+    background-color: #555;
+}
+.matches > tr:nth-child(even) {
+    background-color: #666;
+}
+
+.matches > tr > td {
+    padding: 10px;
+    border: 2px solid #0F0F0F;
+}
+
+.matchclass {
+}
+
+.matchnum {
+}
+
+.time {
+}
+
+.blueall {
+    background-color: rgba(0,0,255,0.2);
+}
+
+.redall {
+    background-color: rgba(255,0,0,0.2);
+}
+
+.bluescore {
+}
+
+.redscore {
+}
