@@ -5,7 +5,8 @@ var mqtt = require('../../mqtt');
 var buffer = [];
 
 mqtt.client.on('message', function (topic, message) {
-  buffer.push(topic.toString() + ": " + message.toString());
+  if (topic.toString().indexOf("roborio/") == 0)
+    buffer.push(topic.toString() + ": " + message.toString());
 });
 
 module.exports = function(config, dependencies, job_callback) {
