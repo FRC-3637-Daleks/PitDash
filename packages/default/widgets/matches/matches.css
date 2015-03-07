@@ -12,10 +12,10 @@ table {
 }
 
 .matches > tr {
-    background-color: #555;
+    background-color: #333;
 }
 .matches > tr:nth-child(even) {
-    background-color: #666;
+    background-color: #555;
 }
 
 .matches > tr > td {

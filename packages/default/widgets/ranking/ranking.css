@@ -12,10 +12,10 @@ table {
 }
 
 .rankings > tr {
-    background-color: #555;
+    background-color: #333;
 }
 .rankings > tr:nth-child(even) {
-    background-color: #666;
+    background-color: #555;
 }
 
 .rankings > tr > td {
