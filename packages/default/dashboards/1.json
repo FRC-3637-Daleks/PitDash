@@ -27,7 +27,7 @@
     },
 
     "mqtt_feed" : {
-      "widgetTitle": "Feed",
+      "widgetTitle": "Console",
       "interval": 200
     },
 

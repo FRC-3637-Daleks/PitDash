@@ -6,7 +6,7 @@ var mqtt = require('mqtt'),
 
 var cache = new NodeCache({ stdTTL: 0, checkperiod: 0 });
 
-var client = mqtt.connect('mqtt://10.36.37.210');
+var client = mqtt.connect('mqtt://roboRIO-3637.local:1180');
 
 client.subscribe('#');
 
