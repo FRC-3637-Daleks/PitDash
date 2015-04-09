@@ -7,6 +7,7 @@ module.exports = function(config, dependencies, job_callback) {
 
     var options = {
         url: "http://www.thebluealliance.com/api/v2/team/" + config.team + "/event/" + config.event + "/matches",
+	//url: "http://www.thebluealliance.com/api/v2/event/" + config.event + "/matches",
         headers: {
             "X-TBA-App-Id": config.team + ":pitdash:1"
         }
