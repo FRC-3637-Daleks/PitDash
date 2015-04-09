@@ -40,14 +40,14 @@
       "widgetTitle": "Matches",
       "interval": 180000,
       "team": "frc3637",
-      "event": "2015paphi"
+      "event": "2015mrcmp"
     },
 
     "ranking" : {
       "widgetTitle": "Ranking",
       "interval": 180000,
       "team": 3637,
-      "event": "2015paphi"
+      "event": "2015mrcmp"
     }
   }
 }
