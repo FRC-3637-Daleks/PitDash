@@ -15,19 +15,21 @@ widget = {
         $('#matches').html('');
 
         $.each(data.matches, function( index, match ) {
+	//if (match.comp_level != "qm") {
             $('#matches').append('<tr class="match">' +
                 '<td class="matchclass">' + match.comp_level + '</td>' +
                 '<td class="matchnum">' + match.match_number + '</td>' +
                 '<td class="time">' + match.time_pretty + '</td>' +
-                '<td class="blueall">' + match.alliances.blue.teams[0] + '</td>' +
-                '<td class="blueall">' + match.alliances.blue.teams[1] + '</td>' +
-                '<td class="blueall">' + match.alliances.blue.teams[2] + '</td>' +
-                '<td class="redall">' + match.alliances.red.teams[0] + '</td>' +
-                '<td class="redall">' + match.alliances.red.teams[1] + '</td>' +
-                '<td class="redall">' + match.alliances.red.teams[2] + '</td>' +
+                '<td class="blueall team' + match.alliances.blue.teams[0] + '">' + match.alliances.blue.teams[0] + '</td>' +
+                '<td class="blueall team' + match.alliances.blue.teams[1] + '">' + match.alliances.blue.teams[1] + '</td>' +
+                '<td class="blueall team' + match.alliances.blue.teams[2] + '">' + match.alliances.blue.teams[2] + '</td>' +
+                '<td class="redall team' + match.alliances.red.teams[0] + '">' + match.alliances.red.teams[0] + '</td>' +
+                '<td class="redall team' + match.alliances.red.teams[1] + '">' + match.alliances.red.teams[1] + '</td>' +
+                '<td class="redall team' + match.alliances.red.teams[2] + '">' + match.alliances.red.teams[2] + '</td>' +
                 '<td class="bluescore">' + match.alliances.blue.score + '</td>' +
                 '<td class="redscore">' + match.alliances.red.score + '</td>' +
              '</tr>');
+	//}
         });
     }
 };
